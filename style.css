@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0074D9;
+}
+
+.header {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.hangman-widget {
+  text-align: center;
+  margin: 20px;
+}
+
+.word-placeholder {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.guesses-left {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.letter-choice {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.game-status {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.new-game-button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+
+.stick-figure {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150px;
+  margin: 20px 0;
+}
+
+.stick-figure > div {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  margin: 0 3px;
+  border-radius: 50%;
+}
+
+.head {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0 auto 5px;
+}
+
+.body {
+  width: 4px;
+  height: 35px;
+  background-color: black;
+  margin: 0 auto 5px;
+}
+
+.left-arm,
+.right-arm {
+  width: 18px;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+.left-leg,
+.right-leg {
+  width: 18px;
+  height: 4px;
+  background-color: black;
+  margin: 0 1px;
+}
+
+
